@@ -22,39 +22,6 @@
   <name>Java开发用到Spring相关工具代码</name>
   <url>${project.home.url}/commons/${artifactId}</url>
 
-  <repositories>
-    <repository>
-      <id>njzhyl-releases</id>
-      <name>Nanjing Smart Medical Maven Release Repository</name>
-      <url>https://nexus.njzhyl.cn/repository/maven-releases/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>njzhyl-snapshots</id>
-      <name>Nanjing Smart Medical Maven Snapshot Repository</name>
-      <url>https://nexus.njzhyl.cn/repository/maven-snapshots/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
-    </repository>
-  </repositories>
-
-  <properties>
-    <test.jvm.options>--add-opens java.base/java.lang=ALL-UNNAMED</test.jvm.options>
-  </properties>
-
   <dependencies>
     <!-- Our Company -->
     <dependency>

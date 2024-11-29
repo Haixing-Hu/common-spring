@@ -27,7 +27,7 @@ import org.springframework.format.support.FormattingConversionServiceFactoryBean
  *     base-package="ltd.qubit.commons.spring.converter, ltd.qubit.commons.controller" /&gt;
  * &lt;mvc:annotation-driven conversion-service="conversionService" /&gt;
  * &lt;bean id="conversionService"
- *    class="ltd.qubit.commons.spring.converter.CustomizedConversionServiceFactoryBean"/&gt;
+ *    class="converter.ltd.qubit.commons.spring.CustomizedConversionServiceFactoryBean"/&gt;
  * </code></pre>
  *
  * @author Haixing Hu
