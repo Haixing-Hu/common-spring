@@ -12,9 +12,9 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
 /**
- * The annotation for the customized converters.
+ * 用于标记自定义转换器的注解。
  *
- * @author Haixing Hu
+ * @author 胡海星
  */
 @Target({ ElementType.TYPE, ElementType.FIELD })
 public @interface CustomizedConverter {
